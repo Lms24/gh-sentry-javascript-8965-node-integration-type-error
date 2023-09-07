@@ -1,0 +1,15 @@
+{
+  "name": "gh-sentry-javascript-8965-node-integration-type-errpr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lukas Stracke <lukas.stracke@sentry.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js"
+  }
+}
