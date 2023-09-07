@@ -11,5 +11,10 @@
   "scripts": {
     "build": "tsc",
     "start": "yarn build && node dist/index.js"
+  },
+  "dependencies": {
+    "@sentry/integrations": "^7.68.0",
+    "@sentry/node": "^7.68.0",
+    "@sentry/profiling-node": "^1.2.1"
   }
 }
